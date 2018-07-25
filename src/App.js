@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import Characters from './Components/Characters';
+import Header from './Components/Header';
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,9 @@ class App extends Component {
   }
   render() {
     return (
-      <ul>
+      <div>
+        <Header />
+        <ul>
         { this.state.persons.map(x => 
         <Characters 
         name={x.name} 
@@ -29,6 +32,7 @@ class App extends Component {
         image={x.image}
         />)}
       </ul>
+      </div>
     );
   }
 }

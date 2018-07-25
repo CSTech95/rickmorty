@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+ul.nav{
+  display: flex;
+  flex-flow: row;
+}
+li.nav-items{
+  color: black;
+  background: white;
+}
 
 .App-header {
   background-color: #222;
