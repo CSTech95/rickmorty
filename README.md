@@ -1,0 +1,1 @@
+Rick & Morty website using react and Rick & Morty API.
