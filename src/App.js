@@ -12,7 +12,8 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    axios.get(`https://rickandmortyapi.com/api/character/?page=2`)
+    const id = 1;
+    axios.get(`https://rickandmortyapi.com/api/character/?page=${id}`)
       .then(res => {
         const persons = res.data.results;
         // console.log(persons);
