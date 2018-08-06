@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-import Characters from './Components/Characters';
-import Header from './Components/Header';
+import Characters from './Components/Characters/Characters';
+import Header from './Components/Header/Header';
 
 class App extends Component {
   constructor(props) {
@@ -14,9 +14,9 @@ class App extends Component {
   componentDidMount() {
     axios.get(`https://rickandmortyapi.com/api/character/?page=2`)
       .then(res => {
-        const persons = res.data;
+        const persons = res.data.results;
         // console.log(persons);
-        this.setState({ persons:persons.results });
+        this.setState({ persons:persons });
         console.log(this.state.persons);
       })
   }
