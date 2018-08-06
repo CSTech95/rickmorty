@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 import axios from 'axios';
 import Characters from './Components/Characters/Characters';
 import Header from './Components/Header/Header';
