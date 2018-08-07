@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 import axios from 'axios';
 import Characters from './Components/Characters/Characters';
 import Header from './Components/Header/Header';
@@ -12,7 +12,8 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    axios.get(`https://rickandmortyapi.com/api/character/?page=2`)
+    const id = 1;
+    axios.get(`https://rickandmortyapi.com/api/character/?page=${id}`)
       .then(res => {
         const persons = res.data.results;
         // console.log(persons);
