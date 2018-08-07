@@ -11,10 +11,10 @@ export default class Header extends Component {
     <span className='logo'><img src='https://vignette.wikia.nocookie.net/rickandmorty/images/1/1e/Rick_and_morty_icon.png/revision/latest?cb=20150805041642&format=original' /></span>
 
       <ul class='nav'>
-        <li class='nav-items'>Home</li>
-        <li class='nav-items'>About</li>
-        <li class='nav-items'>Contact</li>
-        <li class='nav-items'>Join</li>
+        <li className='nav-items'>Home</li>
+        <li className='nav-items'>About</li>
+        <li className='nav-items'>Contact</li>
+        <li className='nav-items'>Join</li>
       </ul>
 
         </header>
