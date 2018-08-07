@@ -3,21 +3,42 @@ import styled from 'styled-components';
 
 
 export default styled.section`
-
-ul{
+header{
+    display: flex;
+    background: #9FCDE6;
+    height: 50px;
+    justify-content: space-between;
+}
+ul.nav{
     margin: 0px;
     padding: 0px;
-    background: #9FCDE6;
     display: flex;
-    flex-flow: row;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 
-li{
+ul.nav li{
     color: white;
     list-style-type: none;
     margin: 10px;
+    align-self: center;
+}
+
+ul.nav li:hover{
+    color: #E2DCAC;
+    cursor: pointer;
+}
+
+span.logo{
+    margin: 10px;
+    color: white;
+    align-self: center;
+}
+img{
+    height: 50px;
+}
+img:hover{
+    cursor: pointer;
 }
 `;
 
