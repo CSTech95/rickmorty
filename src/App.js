@@ -25,14 +25,12 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <ul>
         { this.state.persons.map(x => 
         <Characters 
         name={x.name} 
         status={x.status} 
         image={x.image}
-        />)}
-      </ul>
+        />) }
       </div>
     );
   }
