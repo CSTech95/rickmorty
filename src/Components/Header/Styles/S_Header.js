@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 
+const myRed = '#fb595d';
+const myBlue = '#9FCDE6';
 
 export default styled.section`
 header{
     display: flex;
-    background: #9FCDE6;
+    background: ${myRed};
     height: 50px;
     justify-content: space-between;
 }
@@ -25,7 +27,7 @@ ul.nav li{
 }
 
 ul.nav li:hover{
-    color: #E2DCAC;
+    color: ${myBlue};
     cursor: pointer;
 }
 
