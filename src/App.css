@@ -1,13 +1,14 @@
 .App {
   text-align: center;
+  background: grey;
 }
 
-ul.nav{
+ul.nav {
   display: flex;
   flex-flow: row;
   margin-top: 50px;
 }
-li.nav-items{
+li.nav-items {
   color: black;
   background: white;
 }
@@ -26,14 +27,14 @@ li.nav-items{
 .App-intro {
   font-size: large;
 }
-ul{
+ul {
   display: flex;
   flex-flow: row wrap;
   position: relative;
   justify-content: center;
   margin-bottom: 10px;
 }
-ul li{
+ul li {
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -43,6 +44,4 @@ ul li{
   margin-bottom: 10px;
 }
 div.cWrap {
-  
 }
-
