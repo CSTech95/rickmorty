@@ -13,6 +13,7 @@ export default styled.div`
   background: lightcoral;
   grid-gap: 15px;
   text-align: center;
+  font-size: 1.5vw;
 
   li {
     list-style-type: none;
