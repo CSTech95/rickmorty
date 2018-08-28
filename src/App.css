@@ -43,5 +43,6 @@ ul li {
   background: black;
   margin-bottom: 10px;
 }
-div.cWrap {
+ul li a {
+  color: white;
 }

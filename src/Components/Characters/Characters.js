@@ -29,7 +29,7 @@ export default class Characters extends Component {
   render() {
     return (
       <S_Characters>
-        <div class="container">
+        <div className="container">
           {this.state.persons.map(x => (
             <Character
               key={x.id}
