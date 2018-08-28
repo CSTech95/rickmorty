@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 
 import axios from "axios";
 import Characters from "./Components/Characters/Characters";
@@ -30,7 +31,31 @@ const Character = () => {
 const Join = () => {
   return (
     <div>
-      <h1>Join</h1>
+      <Form inline>
+        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
+          <Label for="exampleEmail" className="mr-sm-2">
+            Email
+          </Label>
+          <Input
+            type="email"
+            name="email"
+            id="exampleEmail"
+            placeholder="something@idk.cool"
+          />
+        </FormGroup>
+        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
+          <Label for="examplePassword" className="mr-sm-2">
+            Password
+          </Label>
+          <Input
+            type="password"
+            name="password"
+            id="examplePassword"
+            placeholder="don't tell!"
+          />
+        </FormGroup>
+        <Button>Submit</Button>
+      </Form>
     </div>
   );
 };
