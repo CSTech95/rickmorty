@@ -3,8 +3,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import axios from "axios";
-import Characters from "./Components/Characters/Characters";
+import Character from "./Components/Character/Character";
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 const NoMatch = () => {
   return (
@@ -20,13 +21,13 @@ const Home = () => {
     </div>
   );
 };
-const Character = () => {
-  return (
-    <div>
-      <h1>Search for single character</h1>
-    </div>
-  );
-};
+// const Character = () => {
+//   return (
+//     <div>
+//       <h1>Search for single character</h1>
+//     </div>
+//   );
+// };
 const Join = () => {
   return (
     <div>
@@ -44,10 +45,10 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/character" component={Character} />
-          <Route path="/characters" component={Characters} />
           <Route path="/join" component={Join} />
           <Route component={NoMatch} />
         </Switch>
+        <Footer />
       </div>
     );
   }
