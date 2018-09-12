@@ -1,11 +1,10 @@
 import React from "react";
-import S_Characters from "../../Styles/S_Characters/S_Characters";
-
+import { Img } from "./Characters.style";
 const Characters = props => {
   return (
     <div>
       <h3>{props.name}</h3>
-      <img src={props.image} />
+      <Img src={props.image} />
       <h5>{props.status}</h5>
     </div>
   );

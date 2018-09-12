@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import CSearch from "../CSearch/CSearch";
 import Characters from "../Characters/Characters";
-import S_Characters from "../../Styles/S_Characters/S_Characters";
+import { Div } from "./Character.style";
 
 class Character extends Component {
   state = {
@@ -31,12 +31,11 @@ class Character extends Component {
   // Ternary starts
   render() {
     return (
-      <div>
+      <Div>
         <CSearch getCharacter={this.getCharacter} />
 
-        <S_Characters>
-          {this.state.APIcharacter ? (
-            this.state.APIcharacter.map(x => (
+        {this.state.APIcharacter
+          ? this.state.APIcharacter.map(x => (
               <Characters
                 key={x.id}
                 name={x.name}
@@ -44,11 +43,8 @@ class Character extends Component {
                 image={x.image}
               />
             ))
-          ) : (
-            <h1>Search for Characters</h1>
-          )}
-        </S_Characters>
-      </div>
+          : null}
+      </Div>
     );
   }
 }
