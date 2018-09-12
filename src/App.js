@@ -1,25 +1,23 @@
 import React, { Component } from "react";
 // import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-
 import axios from "axios";
+
+import { Div } from "./App.style";
+
 import Character from "./Components/Character/Character";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 
 const NoMatch = () => {
   return (
-    <div>
+    <Div>
       <h1>Page Not Found</h1>
-    </div>
+    </Div>
   );
 };
 const Home = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  );
+  return <h1>Home</h1>;
 };
 // const Character = () => {
 //   return (
@@ -30,18 +28,17 @@ const Home = () => {
 // };
 const Join = () => {
   return (
-    <div>
+    <Div>
       <h1>Join</h1>
-    </div>
+    </Div>
   );
 };
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Div>
         <Header />
-        {/* <Characters /> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/character" component={Character} />
@@ -49,7 +46,7 @@ class App extends Component {
           <Route component={NoMatch} />
         </Switch>
         <Footer />
-      </div>
+      </Div>
     );
   }
 }
