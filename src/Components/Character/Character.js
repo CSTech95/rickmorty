@@ -3,6 +3,8 @@ import axios from "axios";
 import CSearch from "../CSearch/CSearch";
 import Characters from "../Characters/Characters";
 import { Div } from "./Character.style";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 class Character extends Component {
   state = {
@@ -32,18 +34,22 @@ class Character extends Component {
   render() {
     return (
       <Div>
-        <CSearch getCharacter={this.getCharacter} />
+        <div className="search">
+          <CSearch getCharacter={this.getCharacter} />
+        </div>
 
-        {this.state.APIcharacter
-          ? this.state.APIcharacter.map(x => (
-              <Characters
-                key={x.id}
-                name={x.name}
-                status={x.status}
-                image={x.image}
-              />
-            ))
-          : null}
+        <div className="api-wrapper">
+          {this.state.APIcharacter
+            ? this.state.APIcharacter.map(x => (
+                <Characters
+                  key={x.id}
+                  name={x.name}
+                  status={x.status}
+                  image={x.image}
+                />
+              ))
+            : null}
+        </div>
       </Div>
     );
   }

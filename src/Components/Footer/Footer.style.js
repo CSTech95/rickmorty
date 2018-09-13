@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { colors } from "../Colors";
 
-const myRed = "#fb595d";
-const myBlue = "#9FCDE6";
+const { red, blue, black } = colors;
 
 export const Myfooter = styled.footer`
-  background-color: ${myRed};
-  position: relative;
+  background-color: ${black};
+  color: ${blue};
+  /* position: absolute; */
   width: 100%;
-  height: 100px;
+  height: 75px;
   bottom: 0px;
   text-align: center;
 `;
