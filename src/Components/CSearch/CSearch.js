@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import { Input, Button, Form } from "./CSearch.style";
 
 const CSearch = props => {
   return (
-    <form onSubmit={props.getCharacter}>
-      <input placeholder="Search for characters" type="text" name="SearchC" />
-      <button>Search</button>
-    </form>
+    <Form onSubmit={props.getCharacter}>
+      <Input placeholder="Search for characters" type="text" name="SearchC" />
+      <Button>Search</Button>
+    </Form>
   );
 };
 

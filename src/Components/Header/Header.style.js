@@ -2,14 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 import { colors } from "../Colors";
-const { red, blue } = colors;
+const { red, blue, black, grey } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: ${blue};
+  background: ${black};
   height: 50px;
   justify-content: space-between;
-
+  a {
+    text-decoration: none;
+    color: ${grey};
+  }
   ul.nav {
     margin: 0px;
     padding: 0px;
