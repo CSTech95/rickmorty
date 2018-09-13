@@ -7,8 +7,17 @@ const myBlue = "#9FCDE6";
 export const Div = styled.div`
   position: relative;
   height: 100%;
+  background: turquoise;
+`;
 
-  div.api-wrapper {
-    height: 97%;
-  }
+export const Search = styled.div`
+  background: pink;
+`;
+export const ApiResults = styled.div`
+  background: turquoise;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100%;
 `;

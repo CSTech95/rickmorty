@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       <Div>
-        <div className="Header">
+        {/* <div className="Header">
           <Header />
-        </div>
+        </div> */}
         <div className="Container">
           <Switch>
             <Route exact path="/" component={Home} />
@@ -24,9 +24,9 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </div>
-        <div className="Footer">
+        {/* <div className="Footer">
           <Footer />
-        </div>
+        </div> */}
       </Div>
     );
   }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import CSearch from "../CSearch/CSearch";
 import Characters from "../Characters/Characters";
-import { Div } from "./Character.style";
+import { Div, Search, ApiResults } from "./Character.style";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
@@ -34,11 +34,11 @@ class Character extends Component {
   render() {
     return (
       <Div>
-        <div className="search">
+        <Header />
+        <Search>
           <CSearch getCharacter={this.getCharacter} />
-        </div>
-
-        <div className="api-wrapper">
+        </Search>
+        <ApiResults>
           {this.state.APIcharacter
             ? this.state.APIcharacter.map(x => (
                 <Characters
@@ -49,7 +49,8 @@ class Character extends Component {
                 />
               ))
             : null}
-        </div>
+        </ApiResults>
+        <Footer />
       </Div>
     );
   }
