@@ -10,15 +10,19 @@ export const Div = styled.div`
   background: ${grey};
   position: relative;
 
-  div.footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-  }
-
   div.header {
     position: absolute;
     top: 0px;
+    width: 100%;
+  }
+
+  div.container {
+    position: absolute;
+    top: 50px;
+  }
+  div.footer {
+    position: absolute;
+    bottom: 0px;
     width: 100%;
   }
 `;
