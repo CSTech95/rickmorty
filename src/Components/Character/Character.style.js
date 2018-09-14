@@ -8,20 +8,23 @@ import { colors } from "../Colors";
 const { red, blue, black, grey } = colors;
 
 export const Div = styled.div`
-  position: relative;
   height: 100%;
   background: turquoise;
 `;
 
 export const Search = styled.div`
-  background: ${blue};
-  border-top: 2px solid ${red};
-  border-bottom: 2px solid ${red};
+  background: ${grey};
+  /* border-top: 2px solid ${blue}; */
+  /* border-bottom: 2px solid ${red}; */
+  padding-bottom: 10px;
+  padding-top: 10px;
 `;
 export const ApiResults = styled.div`
   background: ${grey};
   display: grid;
   align-items: center;
+  grid-gap: 0.3em;
+  justify-items: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   height: 100%;
