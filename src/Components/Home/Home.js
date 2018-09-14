@@ -7,7 +7,15 @@ import { Div } from "./Home.style";
 const Home = () => {
   return (
     <Div>
-      <h1>Home</h1>
+      <div className="header">
+        <Header />
+      </div>
+      <div className="container">
+        <h1>Home</h1>
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </Div>
   );
 };
