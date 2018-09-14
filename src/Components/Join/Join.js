@@ -10,7 +10,23 @@ const Join = () => {
         <Header />
       </div>
       <div className="container">
-        <h1>Join</h1>
+        <form>
+          <div className="form-wrap">
+            <div className="email">
+              <label>Email Address: </label>
+              <input type="text" />
+            </div>
+            <div className="user">
+              <label>User Name</label>
+              <input type="text" />
+            </div>
+            <div className="password">
+              <label>Password</label>
+              <input type="text" />
+            </div>
+            <input type="submit" />
+          </div>
+        </form>
       </div>
       <div className="footer">
         <Footer />

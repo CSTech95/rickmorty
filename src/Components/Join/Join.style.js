@@ -17,6 +17,17 @@ export const Div = styled.div`
     position: absolute;
     top: 50px;
   }
+  div.form-wrap {
+    background: ${black};
+    color: white;
+    position: absolute;
+    left: 45vw;
+    top: 15vh;
+    height: 300px;
+    width: 500px;
+    display: block;
+    padding-top: 50px;
+  }
   div.footer {
     position: absolute;
     bottom: 0px;
