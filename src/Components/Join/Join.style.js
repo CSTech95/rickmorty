@@ -16,6 +16,8 @@ export const Div = styled.div`
   div.container {
     position: absolute;
     top: 50px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
   }
   div.form-wrap {
     background: ${black};

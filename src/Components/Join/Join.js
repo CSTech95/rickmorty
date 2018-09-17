@@ -17,11 +17,11 @@ const Join = () => {
               <input type="text" />
             </div>
             <div className="user">
-              <label>User Name</label>
+              <label>User Name: </label>
               <input type="text" />
             </div>
             <div className="password">
-              <label>Password</label>
+              <label>Password: </label>
               <input type="text" />
             </div>
             <input type="submit" />
