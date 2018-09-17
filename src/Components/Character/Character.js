@@ -34,7 +34,6 @@ class Character extends Component {
   render() {
     return (
       <Div>
-        <Header />
         <Search>
           <CSearch getCharacter={this.getCharacter} />
         </Search>
@@ -50,7 +49,6 @@ class Character extends Component {
               ))
             : null}
         </ApiResults>
-        <Footer />
       </Div>
     );
   }

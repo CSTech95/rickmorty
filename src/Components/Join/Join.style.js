@@ -25,11 +25,22 @@ export const Div = styled.div`
     position: absolute;
     left: 45vw;
     top: 15vh;
-    height: 300px;
-    width: 500px;
+    height: 225px;
+    width: 450px;
     display: block;
     padding-top: 50px;
   }
+
+  .email {
+    padding-bottom: 15px;
+  }
+  .user {
+    padding-bottom: 15px;
+  }
+  .password {
+    padding-bottom: 15px;
+  }
+
   div.footer {
     position: absolute;
     bottom: 0px;

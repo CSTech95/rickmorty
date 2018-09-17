@@ -7,9 +7,6 @@ import { Div } from "./Home.style";
 const Home = () => {
   return (
     <Div>
-      <div className="header">
-        <Header />
-      </div>
       <div className="container">
         <h1>Home</h1>
         <p>
@@ -19,9 +16,6 @@ const Home = () => {
           Character in the header. When you feel ready to join, feel free to do
           so by simply clicking join. Thanks and enjoy.
         </p>
-      </div>
-      <div className="footer">
-        <Footer />
       </div>
     </Div>
   );

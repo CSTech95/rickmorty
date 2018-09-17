@@ -1,7 +1,15 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { Wrapper } from "./Header.style";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  NavLink
+} from "react-router-dom";
+
+import { colors } from "../Colors";
+const { blue } = colors;
 
 export default class Header extends Component {
   render() {
@@ -13,14 +21,20 @@ export default class Header extends Component {
 
         <ul className="nav">
           <li className="nav-items">
-            <Link to="/">Home</Link>
+            <NavLink exact activeStyle={{ color: blue }} to="/">
+              Home
+            </NavLink>
           </li>
 
           <li className="nav-items">
-            <Link to="/character">Character</Link>
+            <NavLink activeStyle={{ color: blue }} to="/character">
+              Character
+            </NavLink>
           </li>
           <li className="nav-items">
-            <Link to="/join">Join</Link>
+            <NavLink activeStyle={{ color: blue }} to="/join">
+              Join
+            </NavLink>
           </li>
         </ul>
       </Wrapper>

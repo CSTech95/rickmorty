@@ -6,30 +6,30 @@ import Footer from "../Footer/Footer";
 const Join = () => {
   return (
     <Div>
-      <div className="header">
-        <Header />
-      </div>
       <div className="container">
         <form>
           <div className="form-wrap">
             <div className="email">
-              <label>Email Address: </label>
-              <input type="text" />
+              <label>Email Address </label>
+              <div>
+                <input type="text" />
+              </div>
             </div>
             <div className="user">
-              <label>User Name: </label>
-              <input type="text" />
+              <label>User Name </label>
+              <div>
+                <input type="text" />
+              </div>
             </div>
             <div className="password">
-              <label>Password: </label>
-              <input type="text" />
+              <label>Password </label>
+              <div>
+                <input type="text" />
+              </div>
             </div>
             <input type="submit" />
           </div>
         </form>
-      </div>
-      <div className="footer">
-        <Footer />
       </div>
     </Div>
   );

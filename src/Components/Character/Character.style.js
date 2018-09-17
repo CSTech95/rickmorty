@@ -27,5 +27,5 @@ export const ApiResults = styled.div`
   justify-items: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  height: 100%;
+  height: 96.5%;
 `;

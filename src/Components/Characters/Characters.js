@@ -3,7 +3,10 @@ import { Img, Div } from "./Characters.style";
 const Characters = props => {
   return (
     <Div>
-      <h3>{props.name}</h3>
+      <h5>
+        {props.name.slice(0, 13)}
+        ...
+      </h5>
       <Img src={props.image} />
       <h5>{props.status}</h5>
     </Div>
