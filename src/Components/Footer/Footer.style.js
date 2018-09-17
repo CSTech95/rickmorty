@@ -9,7 +9,11 @@ export const Myfooter = styled.footer`
   color: ${grey};
   /* position: absolute; */
   width: 100%;
-  height: 75px;
+  height: 45px;
   bottom: 0px;
-  text-align: center;
+  text-align: end;
+  .Ftext {
+    padding-right: 50px;
+    padding-top: 15px;
+  }
 `;

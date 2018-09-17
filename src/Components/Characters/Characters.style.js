@@ -5,14 +5,17 @@ const myRed = "#fb595d";
 const myBlue = "#9FCDE6";
 
 export const Div = styled.div`
-  height: 175px;
-  width: 175px;
-  border: 1.5px solid black;
-  box-shadow: 10px 5px 5px black;
+  height: 100px;
+  width: 105px;
+  border: 1.5px solid grey;
+  box-shadow: 10px 5px 5px ${myBlue};
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  justify-items: center;
 `;
 export const Img = styled.img`
-  width: 70%;
-  height: 70%;
+  width: auto;
+  height: 100%;
 `;
 // export const  = styled.img`
 //   width: 50%;
