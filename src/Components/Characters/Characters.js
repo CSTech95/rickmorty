@@ -4,7 +4,7 @@ const Characters = props => {
   return (
     <Div>
       <h5>
-        {props.name.slice(0, 13)}
+        {props.name.slice(0, 10)}
         ...
       </h5>
       <Img src={props.image} />

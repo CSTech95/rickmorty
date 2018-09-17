@@ -8,7 +8,7 @@ export const Div = styled.div`
   height: 100px;
   width: 105px;
   border: 1.5px solid grey;
-  box-shadow: 10px 5px 5px ${myBlue};
+  box-shadow: 5px 5px 5px black;
   display: grid;
   grid-template-rows: 1fr 4fr 1fr;
   justify-items: center;
