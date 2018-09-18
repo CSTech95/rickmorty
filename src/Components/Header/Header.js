@@ -27,8 +27,8 @@ export default class Header extends Component {
           </li>
 
           <li className="nav-items">
-            <NavLink activeStyle={{ color: blue }} to="/character">
-              Character
+            <NavLink activeStyle={{ color: blue }} to="/characters">
+              Characters
             </NavLink>
           </li>
           <li className="nav-items">
