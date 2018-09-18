@@ -6,7 +6,7 @@ const { red, blue, black, grey } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: ${black};
+  background: #091834;
   height: 50px;
   justify-content: space-between;
   a {
@@ -42,5 +42,16 @@ export const Wrapper = styled.header`
   }
   img:hover {
     cursor: pointer;
+  }
+  /* Media-Queries */
+  @media screen and (max-width: 407px) {
+    ${Wrapper} {
+      flex-direction: column;
+      height: 175px;
+    }
+    ul.nav {
+      flex-direction: column;
+      height: 50px;
+    }
   }
 `;

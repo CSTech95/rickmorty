@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 import { colors } from "../Colors";
-const { blue } = colors;
+const { blue, red } = colors;
 
 export default class Header extends Component {
   render() {
@@ -21,18 +21,28 @@ export default class Header extends Component {
 
         <ul className="nav">
           <li className="nav-items">
-            <NavLink exact activeStyle={{ color: blue }} to="/">
+            <NavLink
+              exact
+              activeStyle={{ color: red, fontWeight: "bold" }}
+              to="/"
+            >
               Home
             </NavLink>
           </li>
 
           <li className="nav-items">
-            <NavLink activeStyle={{ color: blue }} to="/characters">
+            <NavLink
+              activeStyle={{ color: red, fontWeight: "bold" }}
+              to="/characters"
+            >
               Characters
             </NavLink>
           </li>
           <li className="nav-items">
-            <NavLink activeStyle={{ color: blue }} to="/join">
+            <NavLink
+              activeStyle={{ color: red, fontWeight: "bold" }}
+              to="/join"
+            >
               Join
             </NavLink>
           </li>

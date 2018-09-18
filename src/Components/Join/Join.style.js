@@ -8,7 +8,7 @@ export const Div = styled.div`
   div.container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    background: ${grey};
+    /* background: ${grey}; */
     height: 100%;
   }
   div.form-wrap {

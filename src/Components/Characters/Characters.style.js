@@ -9,7 +9,7 @@ const { red, blue, black, grey } = colors;
 
 export const Div = styled.div`
   height: 100%;
-  background: ${grey};
+  /* background: #ebf2ff; */
 `;
 
 export const Search = styled.div`
@@ -20,12 +20,13 @@ export const Search = styled.div`
   padding-top: 10px;
 `;
 export const ApiResults = styled.div`
-  /* background: ${grey}; */
   display: grid;
-  align-items: center;
-  grid-gap: 0.3em;
+  grid-gap: 0.5em;
   justify-items: center;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  /* height: 96.5%; */
+  grid: auto-flow / repeat(auto-fit, minmax(200px, 1fr));
+  @media screen and (max-width: 400px) {
+    ${ApiResults} {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
