@@ -1,9 +1,11 @@
 {
-  "name": "rickmortysite",
+  "name": "RickMorty",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lavish95.github.io/rickmortysite",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
@@ -13,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "styled-components": "^3.4.1"
