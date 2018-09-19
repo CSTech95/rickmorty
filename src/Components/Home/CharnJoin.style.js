@@ -14,9 +14,10 @@ export const Container = styled.div`
     justify-self: stretch;
   }
   .join {
-    background: #165949;
+    background: #091834;
     align-self: stretch;
     justify-self: stretch;
+    color: white;
   }
   .characters:hover {
     background: #9fcde6;
