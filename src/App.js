@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
 import Home from "./Components/Home/Home";
-import Character from "./Components/Character/Character";
+import Characters from "./Components/Characters/Characters";
 import Join from "./Components/Join/Join";
 import NoMatch from "./Components/NoMatch/NoMatch";
 import Footer from "./Components/Footer/Footer";
@@ -19,7 +19,7 @@ class App extends Component {
         <div className="Container">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/character" component={Character} />
+            <Route path="/characters" component={Characters} />
             <Route path="/join" component={Join} />
             <Route component={NoMatch} />
           </Switch>
