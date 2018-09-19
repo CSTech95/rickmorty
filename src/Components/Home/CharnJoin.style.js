@@ -24,4 +24,9 @@ export const Container = styled.div`
   .join:hover {
     background: #9fcde6;
   }
+  @media screen and (max-width: 400px) {
+    ${Container} {
+      grid: 1fr 1fr/1fr;
+    }
+  }
 `;
