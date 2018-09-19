@@ -9,12 +9,12 @@ export const Container = styled.div`
   height: 800px;
 
   .characters {
-    background: green;
+    background: #e8853c;
     align-self: stretch;
     justify-self: stretch;
   }
   .join {
-    background: blue;
+    background: #165949;
     align-self: stretch;
     justify-self: stretch;
   }
