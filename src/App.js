@@ -18,7 +18,7 @@ class App extends Component {
         </div>
         <div className="Container">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/rickmorty" component={Home} />
             <Route path="/characters" component={Characters} />
             <Route path="/join" component={Join} />
             <Route component={NoMatch} />

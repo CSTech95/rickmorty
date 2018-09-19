@@ -15,7 +15,7 @@ export default class Header extends Component {
   render() {
     return (
       <Wrapper>
-        <Link to="/" className="logo">
+        <Link to="/rickmorty" className="logo">
           <img src="https://vignette.wikia.nocookie.net/rickandmorty/images/1/1e/Rick_and_morty_icon.png/revision/latest?cb=20150805041642&format=original" />
         </Link>
 
@@ -24,7 +24,7 @@ export default class Header extends Component {
             <NavLink
               exact
               activeStyle={{ color: red, fontWeight: "bold" }}
-              to="/"
+              to="/rickmorty"
             >
               Home
             </NavLink>
