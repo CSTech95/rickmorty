@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding-top: 5px;
+  /* padding-top: 5px; */
   display: grid;
   grid: 1fr/1fr 1fr;
   justify-items: stretch;
@@ -17,5 +17,11 @@ export const Container = styled.div`
     background: #165949;
     align-self: stretch;
     justify-self: stretch;
+  }
+  .characters:hover {
+    background: #9fcde6;
+  }
+  .join:hover {
+    background: #9fcde6;
   }
 `;

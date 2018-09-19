@@ -6,7 +6,7 @@ const { red, blue, black, grey } = colors;
 
 export const Myfooter = styled.footer`
   background: #091834;
-  color: ${grey};
+  color: ${red};
   /* position: absolute; */
   width: 100%;
   height: 45px;
