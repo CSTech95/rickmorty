@@ -12,7 +12,7 @@ const Join = () => {
             <div className="email">
               <label>Email Address </label>
               <div>
-                <input type="text" />
+                <input type="email" />
               </div>
             </div>
             <div className="user">
@@ -24,7 +24,7 @@ const Join = () => {
             <div className="password">
               <label>Password </label>
               <div>
-                <input type="text" />
+                <input type="password" />
               </div>
             </div>
             <input type="submit" />
