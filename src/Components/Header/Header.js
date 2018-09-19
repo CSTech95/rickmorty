@@ -24,7 +24,7 @@ export default class Header extends Component {
             <NavLink
               exact
               activeStyle={{ color: red, fontWeight: "bold" }}
-              to="/rickmorty"
+              to="/rickmorty/"
             >
               Home
             </NavLink>
