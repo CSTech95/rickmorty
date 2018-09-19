@@ -15,7 +15,7 @@ export const Div = styled.div`
     background: ${black};
     color: white;
     height: 225px;
-    width: 450px;
+    width: 100%;
     display: block;
     padding-top: 50px;
   }
