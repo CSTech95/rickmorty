@@ -16,9 +16,6 @@ export const Div = styled.div`
     "Footer Footer Footer Footer";
   text-align: center;
   background: ${lightBlue};
-<<<<<<< HEAD
-  .Header 
-=======
   .Header {
 >>>>>>> 0c8e9b58b5ce7dbbf06b527ca18f489a7586305c
     grid-area: Header;
