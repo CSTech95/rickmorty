@@ -19,7 +19,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+<<<<<<< HEAD
   "homepage": "http://lavish95.github.io/rickmorty",
+=======
+  "homepage": "http://lavish95.github.io/RickMorty",
+>>>>>>> 0c8e9b58b5ce7dbbf06b527ca18f489a7586305c
   "devDependencies": {
     "styled-components": "^3.4.1"
   }
