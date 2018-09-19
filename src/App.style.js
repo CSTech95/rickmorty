@@ -17,7 +17,6 @@ export const Div = styled.div`
   text-align: center;
   background: ${lightBlue};
   .Header {
->>>>>>> 0c8e9b58b5ce7dbbf06b527ca18f489a7586305c
     grid-area: Header;
   }
   .Container {
