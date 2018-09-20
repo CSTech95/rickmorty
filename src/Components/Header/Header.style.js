@@ -49,6 +49,10 @@ export const Wrapper = styled.header`
       flex-direction: column;
       height: 100vh;
       justify-content: center;
+      overflow: hidden;
+    }
+    .logo {
+      display: block;
     }
     img {
       height: 7em;
