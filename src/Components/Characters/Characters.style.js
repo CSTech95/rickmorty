@@ -20,9 +20,11 @@ export const Search = styled.div`
   padding-top: 10px;
 `;
 export const ApiResults = styled.div`
+  margin: 0.5em;
   display: grid;
   grid-gap: 0.5em;
-  justify-items: center;
+  place-content: center;
+  place-items: center;
   grid: auto-flow / repeat(auto-fit, minmax(200px, 1fr));
   @media screen and (max-width: 400px) {
     ${ApiResults} {
