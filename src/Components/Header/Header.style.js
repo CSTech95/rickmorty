@@ -47,24 +47,22 @@ export const Wrapper = styled.header`
   @media screen and (max-width: 400px) {
     ${Wrapper} {
       flex-direction: column;
-      height: 100vh;
-      justify-content: center;
-      overflow: hidden;
+      height: 100%;
+      /* justify-items: center; */
     }
     .logo {
-      display: block;
+      display: none;
     }
-    img {
+    /* img {
       height: 7em;
-    }
+    } */
     ul.nav {
       flex-direction: column;
-      height: 50px;
-      padding-top: 9em;
+      height: 100%;
       font-size: 1.5em;
     }
     li.nav-items {
-      padding-top: 2em;
+      padding: 1em;
     }
   }
 `;
