@@ -18,7 +18,8 @@ export const Container = styled.div`
   }
   @media screen and (max-width: 400px) {
     ${Container} {
-      height: calc(100vh - 175px);
+      /* height: calc(100vh - 175px); */
+      display: none;
     }
   }
 `;

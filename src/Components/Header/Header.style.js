@@ -44,14 +44,23 @@ export const Wrapper = styled.header`
     cursor: pointer;
   }
   /* Media-Queries */
-  @media screen and (max-width: 407px) {
+  @media screen and (max-width: 400px) {
     ${Wrapper} {
       flex-direction: column;
-      height: 175px;
+      height: 100vh;
+      justify-content: center;
+    }
+    img {
+      height: 7em;
     }
     ul.nav {
       flex-direction: column;
       height: 50px;
+      padding-top: 13em;
+      font-size: 1.5em;
+    }
+    li.nav-items {
+      padding-top: 2em;
     }
   }
 `;
