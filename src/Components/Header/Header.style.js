@@ -62,7 +62,7 @@ export const Wrapper = styled.header`
       font-size: 1.5em;
     }
     li.nav-items {
-      padding: 1em;
+      padding: 0.2em;
     }
   }
 `;
