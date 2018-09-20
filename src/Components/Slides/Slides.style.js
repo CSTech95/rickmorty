@@ -13,7 +13,7 @@ export const Container = styled.div`
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Container} {
-      height: calc(100vh - 175px);
+      height: calc(100vh - 50px);
     }
   }
   @media screen and (max-width: 400px) {
@@ -32,7 +32,7 @@ export const Img = styled.img`
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Img} {
-      height: calc(100vh - 175px);
+      height: calc(100vh - 50px);
     }
   }
   @media screen and (max-width: 400px) {
