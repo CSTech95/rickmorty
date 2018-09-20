@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { colors } from "../Colors";
+const { red, lightblue, blue, darkblue, black, grey, orange } = colors;
 
 export const Container = styled.div`
   /* padding-top: 5px; */
@@ -23,7 +25,7 @@ export const Container = styled.div`
     background: #9fcde6;
   }
   .join:hover {
-    background: #9fcde6;
+    /* background:  */
   }
   @media screen and (max-width: 400px) {
     ${Container} {

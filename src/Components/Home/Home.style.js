@@ -15,8 +15,8 @@ export const Div = styled.div`
   div.footer {
   }
   p{
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    /* border-top: 3px solid black; */
+    /* border-bottom: 3px solid black; */
     padding: .5rem;
   }
 `;

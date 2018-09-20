@@ -1,10 +1,9 @@
-const myRed = "#fb595d";
-const myBlue = "#9FCDE6";
-
 export const colors = {
   red: "#fb595d",
+  lightBlue: "#ebf2ff",
   blue: "#9FCDE6",
+  darkblue: "#091834",
   black: "#111111",
   grey: "#f2f4f4",
-  lightBlue: "#ebf2ff"
+  orange: "#e8853c"
 };

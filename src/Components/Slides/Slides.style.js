@@ -1,11 +1,45 @@
 import styled from "styled-components";
-
+const maxSize = 100 % -`50px`;
 export const Container = styled.div`
-  width: 100%;
-  /* height: 550px; */
-  background: #9fcde6;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* display grid;
+  grid-template-columns: 1fr; */
+  /* justify-items: center; */
+  width: auto;
+  height: calc(100vh - 50px);
+  background: darkgray;
+  /* ---media queries--- */
+  @media screen and (min-width: 853px) {
+    ${Container} {
+      height: calc(100vh - 175px);
+    }
+  }
+  @media screen and (max-width: 400px) {
+    ${Container} {
+      height: calc(100vh - 175px);
+    }
+  }
 `;
+// export const Previous = styled.div`
+//   /* width: auto; */
+//   height: calc(100% - 50px);
+// `;
 export const Img = styled.img`
-  width: 80%;
-  height: 550px;
+  width: 100%;
+  height: calc(100vh - 50px);
+  /* ---media queries--- */
+  @media screen and (max-width: 400px) {
+    ${Container} {
+      height: calc(100vh - 175px);
+    }
+    ${Img} {
+      height: calc(100vh - 175px);
+    }
+  }
 `;
+// export const Next = styled.div`
+//   /* width: auto; */
+//   height: calc(100v% - 50px);
+// `;

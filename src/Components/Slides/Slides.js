@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Img, Container } from "./Slides.style";
+import { Img, Container, Previous, Next } from "./Slides.style";
 // import axios from "axios";
 
 const Slides = () => {
   return (
     <Container>
-      <Img src="https://i.imgur.com/QQL2Htb.png" />
+      {/* <Previous /> */}
+      <Img src="https://hdqwalls.com/download/rick-va-7680x4320.jpg" />
+      {/* <Next /> */}
     </Container>
   );
 };
