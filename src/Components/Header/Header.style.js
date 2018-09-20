@@ -56,7 +56,7 @@ export const Wrapper = styled.header`
     ul.nav {
       flex-direction: column;
       height: 50px;
-      padding-top: 13em;
+      padding-top: 9em;
       font-size: 1.5em;
     }
     li.nav-items {
