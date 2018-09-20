@@ -30,10 +30,12 @@ export const Img = styled.img`
   width: 100%;
   height: calc(100vh - 50px);
   /* ---media queries--- */
-  @media screen and (max-width: 400px) {
-    ${Container} {
+  @media screen and (min-width: 853px) {
+    ${Img} {
       height: calc(100vh - 175px);
     }
+  }
+  @media screen and (max-width: 400px) {
     ${Img} {
       height: calc(100vh - 175px);
     }
