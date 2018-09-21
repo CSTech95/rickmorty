@@ -18,5 +18,6 @@ export const Div = styled.div`
     /* border-top: 3px solid black; */
     /* border-bottom: 3px solid black; */
     padding: .5rem;
+    line-height: 2em;
   }
 `;

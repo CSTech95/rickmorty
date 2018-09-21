@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { colors } from "../Colors";
 
-const { red, blue, black, grey } = colors;
+const { red, blue, black, grey, lightblue } = colors;
 
 export const Myfooter = styled.footer`
-  background: #091834;
+  background: ${lightblue};
   color: ${red};
   border-top: 1px solid ${grey};
   width: 100%;
