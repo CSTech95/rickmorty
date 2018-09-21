@@ -16,8 +16,8 @@ export const Search = styled.div`
   /* background: ${grey}; */
   /* border-top: 2px solid ${blue}; */
   /* border-bottom: 2px solid ${red}; */
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
+  /* padding-bottom: 1.5em;
+  padding-top: 1.5em; */
 `;
 export const ApiResults = styled.div`
   padding: 0em 1.5em 1.5em 1.5em;

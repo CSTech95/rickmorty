@@ -3,17 +3,36 @@ import styled from "styled-components";
 import { colors } from "../Colors";
 const { red, black, grey, blue } = colors;
 
+export const Form = styled.form`
+  padding: 1.5em;
+  display: grid;
+  grid-gap: 0.3em;
+  grid-template-columns: 160px 75px 1fr;
+  place-content: stretch;
+  place-items: stretch;
+  grid-template-areas: "input button .";
+  @media screen and (max-width: 400px) {
+    ${Form} {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+        "input input input"
+        ". button .";
+    }
+  }
+`;
 export const Input = styled.input`
-  padding-left: 5px;
-  height: 25px;
+  padding-left: 0.5em;
+  grid-area: input;
+  /* width: 150px; */
+  @media screen and (max-width: 400px) {
+    ${Input} {
+    }
+  }
 `;
 export const Button = styled.button`
-  width: 50px;
+  grid-area: button;
   background: ${red};
   color: white;
-  height: 25px;
-`;
-export const Form = styled.form``;
-export const InputC = styled.span`
-  padding-right: 5px;
 `;
