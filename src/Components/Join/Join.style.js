@@ -1,18 +1,18 @@
 import styled from "styled-components";
 import { colors } from "../Colors";
 
-const { red, blue, black, grey } = colors;
+const { red, blue, black, grey, lightblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
+  background: ${lightblue};
   div.container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    /* background: ${grey}; */
     height: 100%;
   }
   div.form-wrap {
-    background: ${black};
+    background: ${red};
     color: white;
     height: 225px;
     width: 100%;

@@ -5,11 +5,11 @@ import { colors } from "../Colors";
 // const myRed = "#fb595d";
 // const myBlue = "#9FCDE6";
 
-const { red, blue, black, grey } = colors;
+const { red, blue, black, grey, lightblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
-  /* background: #ebf2ff; */
+  background: ${lightblue};
 `;
 
 export const Search = styled.div`
