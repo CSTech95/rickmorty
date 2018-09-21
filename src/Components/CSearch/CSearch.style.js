@@ -15,7 +15,7 @@ export const Form = styled.form`
     ${Form} {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 25px 30px;
+      grid-template-rows: 30px 30px;
       grid-template-areas:
         "input input input"
         ". button .";
