@@ -15,7 +15,7 @@ export const Form = styled.form`
     ${Form} {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: 25px 30px;
       grid-template-areas:
         "input input input"
         ". button .";
@@ -28,6 +28,7 @@ export const Input = styled.input`
   /* width: 150px; */
   @media screen and (max-width: 400px) {
     ${Input} {
+      text-align: center;
     }
   }
 `;
