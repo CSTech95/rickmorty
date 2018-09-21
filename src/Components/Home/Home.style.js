@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { colors } from "../Colors";
 
-const { grey } = colors;
+const { grey, lightblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
@@ -19,5 +19,7 @@ export const Div = styled.div`
     /* border-bottom: 3px solid black; */
     padding: .5rem;
     line-height: 2em;
+    background: ${lightblue};
+
   }
 `;
