@@ -19,10 +19,12 @@ export const Img = styled.img`
   height: 100%;
   width: 100%;
   place-self: stretch;
-  @media screen and (min-width: 400px) {
+  /* @media screen and (min-width: 400px) {
     ${Img} {
       width: 100%;
       height: 100%;
+    } */
+    ${Div} {
     }
   }
 `;

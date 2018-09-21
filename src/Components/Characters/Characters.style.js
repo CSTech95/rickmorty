@@ -16,13 +16,13 @@ export const Search = styled.div`
   /* background: ${grey}; */
   /* border-top: 2px solid ${blue}; */
   /* border-bottom: 2px solid ${red}; */
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
 `;
 export const ApiResults = styled.div`
-  margin: 0.5em;
+  padding: 0em 1.5em 1.5em 1.5em;
   display: grid;
-  grid-gap: 0.5em;
+  grid-gap: 1.5em;
   place-content: center;
   place-items: center;
   grid: auto-flow / repeat(auto-fit, minmax(200px, 1fr));

@@ -2,16 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 import { colors } from "../Colors";
-const { red, blue, black, grey } = colors;
+const { red, blue, black, grey, lightblue, darkblue } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: #091834;
+  background: ${lightblue};
   height: 50px;
   justify-content: space-between;
   a {
     text-decoration: none;
-    color: ${grey};
+    color: ${darkblue};
   }
   ul.nav {
     margin: 0px;
@@ -38,7 +38,10 @@ export const Wrapper = styled.header`
     align-self: center;
   }
   img {
+    box-sizing: border-box;
+    padding: 0.4em;
     height: 50px;
+    /* display: none; */
   }
   img:hover {
     cursor: pointer;
@@ -46,22 +49,23 @@ export const Wrapper = styled.header`
   /* Media-Queries */
   @media screen and (max-width: 400px) {
     ${Wrapper} {
-      flex-direction: column;
-      height: 100%;
+      /* flex-direction: column;
+      height: 100%; */
       /* justify-items: center; */
     }
     .logo {
-      display: none;
+      /* display: none; */
     }
     /* img {
       height: 7em;
     } */
     ul.nav {
-      flex-direction: column;
-      height: 100%;
-      font-size: 1.5em;
+      /* flex-direction: column; */
+      /* height: 100%; */
+      font-size: 1em;
     }
     li.nav-items {
+      box-sizing: border-box;
       padding: 0.2em;
     }
   }

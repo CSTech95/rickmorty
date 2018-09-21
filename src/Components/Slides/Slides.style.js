@@ -1,5 +1,7 @@
 import styled from "styled-components";
-const maxSize = 100 % -`50px`;
+import { colors } from "../Colors";
+const { darkblue, lightblue } = colors;
+
 export const Container = styled.div`
   margin: 0px;
   padding: 0px;
@@ -7,19 +9,19 @@ export const Container = styled.div`
   /* display grid;
   grid-template-columns: 1fr; */
   /* justify-items: center; */
-  width: auto;
-  height: calc(100vh - 50px);
-  background: darkgray;
+  width: 100%;
+  /* height: calc(100vh - 50px); */
+  background: ${lightblue};
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Container} {
-      height: calc(100vh - 50px);
+      /* height: calc(100vh - 50px); */
     }
   }
   @media screen and (max-width: 400px) {
     ${Container} {
-      /* height: calc(100vh - 175px); */
-      display: none;
+      height: 100%;
+      /* display: none; */
     }
   }
 `;
@@ -29,16 +31,17 @@ export const Container = styled.div`
 // `;
 export const Img = styled.img`
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 100%;
+  /* height: calc(100vh - 50px); */
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Img} {
-      height: calc(100vh - 50px);
+      /* height: calc(100vh - 50px); */
     }
   }
   @media screen and (max-width: 400px) {
     ${Img} {
-      height: calc(100vh - 175px);
+      height: 100%;
     }
   }
 `;

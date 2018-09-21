@@ -7,7 +7,7 @@ const Slides = () => {
   return (
     <Container>
       {/* <Previous /> */}
-      <Img src="https://hdqwalls.com/download/rick-va-7680x4320.jpg" />
+      <Img src="https://i.imgur.com/YnGtWpj.jpg" />
       {/* <Next /> */}
     </Container>
   );
