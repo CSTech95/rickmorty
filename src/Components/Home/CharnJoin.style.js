@@ -3,33 +3,42 @@ import { colors } from "../Colors";
 const { red, lightblue, blue, darkblue, black, grey, orange } = colors;
 
 export const Container = styled.div`
-  /* padding-top: 5px; */
+  padding: 0.5em;
   display: grid;
-  grid: 1fr/1fr 1fr;
+  grid-gap: 0.5em;
+  grid: repeat(4, 1fr) / 1fr;
   justify-items: stretch;
   align-items: stretch;
-  height: 800px;
+  height: 900px;
 
   .characters {
-    background: #e8853c;
-    align-self: stretch;
-    justify-self: stretch;
-  }
-  .join {
-    background: #091834;
-    align-self: stretch;
-    justify-self: stretch;
+    background: ${red};
+    position: relative;
     color: white;
   }
+  .txt {
+    font-size: 3em;
+    /* background: pink; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: rotate(-45deg); */
+  }
+  .join {
+    background: ${lightblue};
+    color: black;
+    position: relative;
+  }
   .characters:hover {
-    background: #9fcde6;
+    /* background: #9fcde6; */
   }
   .join:hover {
     /* background:  */
   }
   @media screen and (max-width: 400px) {
     ${Container} {
-      grid: 1fr 1fr/1fr;
+      grid: repeat(4, 1fr) / 1fr;
     }
   }
 `;

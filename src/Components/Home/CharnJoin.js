@@ -5,8 +5,18 @@ import { Container } from "./CharnJoin.style";
 const CharnJoin = () => {
   return (
     <Container>
-      <div className="characters">Characters</div>
-      <div className="join">Join</div>
+      <div className="characters">
+        <div className="txt">Characters</div>
+      </div>
+      <div className="join">
+        <div className="txt">Join</div>
+      </div>
+      <div className="characters">
+        <div className="txt">Characters</div>
+      </div>
+      <div className="join">
+        <div className="txt">Join</div>
+      </div>
     </Container>
   );
 };

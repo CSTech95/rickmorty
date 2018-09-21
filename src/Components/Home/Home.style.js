@@ -8,18 +8,17 @@ const { grey, lightblue } = colors;
 export const Div = styled.div`
   height: 100%;
   width: 100%;
-  /* background: ${grey}; */
+  background: ${lightblue};
 
   div.container {
   }
   div.footer {
   }
-  p{
+  p {
     /* border-top: 3px solid black; */
     /* border-bottom: 3px solid black; */
-    padding: .5rem;
+    padding: 0.5rem;
     line-height: 2em;
     background: ${lightblue};
-
   }
 `;

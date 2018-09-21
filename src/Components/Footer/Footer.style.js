@@ -12,6 +12,7 @@ export const Myfooter = styled.footer`
   height: 45px;
   bottom: 0px;
   text-align: center;
+  font-weight: bold;
   .Ftext {
     padding-top: 15px;
   }
