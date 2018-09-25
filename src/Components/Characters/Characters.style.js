@@ -23,8 +23,8 @@ export const ApiResults = styled.div`
   padding: 0em 1.5em 1.5em 1.5em;
   display: grid;
   grid-gap: 1.5em;
-  /* place-content: center;
-  place-items: center; */
+  place-content: center;
+  place-items: center;
   grid: auto / repeat(auto-fit, minmax(200px, 1fr));
   @media screen and (max-width: 400px) {
     ${ApiResults} {
