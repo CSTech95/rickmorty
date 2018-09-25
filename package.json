@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.0",
+    "nuka-carousel": "^4.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",

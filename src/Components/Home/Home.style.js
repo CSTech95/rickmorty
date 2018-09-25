@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 import { colors } from "../Colors";
 
-const { grey, lightblue } = colors;
+const { grey, lightblue, darkblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
   width: 100%;
-  background: ${lightblue};
+  background: ${darkblue};
 
   div.container {
   }

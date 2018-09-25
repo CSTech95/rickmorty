@@ -6,12 +6,12 @@ const { red, blue, black, grey, lightblue, darkblue } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: ${lightblue};
+  background: ${darkblue};
   height: 50px;
   justify-content: space-between;
   a {
     text-decoration: none;
-    color: ${darkblue};
+    color: white;
   }
   ul.nav {
     margin: 0px;

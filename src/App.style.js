@@ -15,7 +15,7 @@ export const Div = styled.div`
     "Container Container Container Container"
     "Footer Footer Footer Footer";
   text-align: center;
-  background: ${lightBlue};
+  /* background: ${lightBlue}; */
   .Header {
     grid-area: Header;
   }

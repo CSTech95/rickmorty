@@ -14,7 +14,7 @@ export const Div = styled.div`
   div.form-wrap {
     background: ${red};
     color: white;
-    height: 225px;
+    height: 100vh;
     width: 100%;
     display: block;
     padding-top: 50px;

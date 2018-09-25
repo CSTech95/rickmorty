@@ -11,7 +11,7 @@ const Home = () => {
     <Div>
       <div className="container">
         {/* <h1>Home</h1> */}
-        <Slides width="100%" />
+        <Slides />
         <p>
           Welcome to Rick & Morty's Auditions. Feel free to browse around and
           see if you'd like to become a rick & Morty character as well. Feel
