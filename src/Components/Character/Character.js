@@ -6,7 +6,7 @@ const Character = props => {
     <Div>
       <Card
         image={props.image}
-        header={props.name.slice(0, 15)}
+        header={props.name}
         meta={props.status}
         // description="Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat."
         // extra={extra}
