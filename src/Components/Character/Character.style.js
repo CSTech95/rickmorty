@@ -7,6 +7,7 @@ const myBlue = "#9FCDE6";
 export const Div = styled.div`
   height: 100%;
   width: 100%;
+  margin: 0px;
   /* border: 1.5px solid black; */
   /* box-shadow: 5px 5px 5px black; */
   /* display: grid;
