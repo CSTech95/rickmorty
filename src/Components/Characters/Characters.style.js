@@ -9,7 +9,7 @@ const { red, blue, black, grey, lightblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
-  background: ${lightblue};
+  /* background: ${lightblue}; */
 `;
 
 export const Search = styled.div`

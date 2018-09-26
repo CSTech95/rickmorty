@@ -4,7 +4,7 @@ import { colors } from "../Colors";
 const { red, black, grey, blue } = colors;
 
 export const Form = styled.form`
-  padding: 1.5em;
+  padding: 1em;
   display: grid;
   grid-gap: 0.3em;
   grid-template-columns: 160px 75px 1fr;
