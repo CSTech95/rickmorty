@@ -43,7 +43,7 @@ class Characters extends Component {
                 <Character
                   key={x.id}
                   name={
-                    x.name.length <= 17 ? x.name : x.name.slice(0, 16) + "..."
+                    x.name.length <= 13 ? x.name : x.name.slice(0, 12) + "..."
                   }
                   status={x.status}
                   image={x.image}

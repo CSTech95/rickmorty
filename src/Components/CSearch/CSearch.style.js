@@ -4,13 +4,16 @@ import { colors } from "../Colors";
 const { red, black, grey, blue } = colors;
 
 export const Form = styled.form`
+  height: 70px;
   padding: 1em;
   display: grid;
   grid-gap: 0.3em;
-  grid-template-columns: 160px 75px 1fr;
+  grid-template-columns: 1fr;
   place-content: stretch;
-  place-items: stretch;
-  grid-template-areas: "input button .";
+  place-items: center;
+  grid-template-areas:
+    "input"
+    "button";
   @media screen and (max-width: 400px) {
     ${Form} {
       display: grid;
@@ -36,4 +39,5 @@ export const Button = styled.button`
   grid-area: button;
   background: ${red};
   color: white;
+  /* width: 4em; */
 `;
