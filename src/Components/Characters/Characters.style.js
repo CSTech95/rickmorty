@@ -22,10 +22,10 @@ export const ApiResults = styled.div`
   grid-gap: 1.5em;
   place-content: center;
   place-items: center;
-  grid: auto / repeat(auto-fit, minmax(200px, 1fr));
+  grid: auto / repeat(auto-fit, minmax(150px, 200px));
   @media screen and (max-width: 400px) {
     ${ApiResults} {
-      grid-template-columns: 1fr;
+      /* grid-template-columns: 1fr; */
       place-self: center;
       place-content: center;
       place-items: center;
