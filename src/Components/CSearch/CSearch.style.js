@@ -4,7 +4,7 @@ import { colors } from "../Colors";
 const { red, black, grey, blue } = colors;
 
 export const Form = styled.form`
-  height: 70px;
+  height: 30em;
   padding: 1em;
   display: grid;
   grid-gap: 0.3em;
@@ -14,20 +14,21 @@ export const Form = styled.form`
   grid-template-areas:
     "input"
     "button";
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
     ${Form} {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 30px 30px;
+      grid-template-rows: 30px 30px 30px;
       grid-template-areas:
         "input input input"
         ". button .";
     }
-  }
+  } */
 `;
 export const Input = styled.input`
   padding-left: 0.5em;
   grid-area: input;
+  align-self: end;
   /* width: 150px; */
   @media screen and (max-width: 400px) {
     ${Input} {
@@ -36,6 +37,7 @@ export const Input = styled.input`
   }
 `;
 export const Button = styled.button`
+  align-self: start;
   grid-area: button;
   background: ${red};
   color: white;

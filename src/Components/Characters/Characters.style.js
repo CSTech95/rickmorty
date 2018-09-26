@@ -14,7 +14,7 @@ export const Div = styled.div`
 `;
 
 export const Search = styled.div`
-  height: 30%;
+  /* height: 30em; */
   display: grid;
   place-content: center;
   place-items: center;
