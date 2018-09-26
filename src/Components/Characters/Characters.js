@@ -42,7 +42,9 @@ class Characters extends Component {
             ? this.state.APIcharacter.map(x => (
                 <Character
                   key={x.id}
-                  name={x.name}
+                  name={
+                    x.name.length <= 17 ? x.name : x.name.slice(0, 16) + "..."
+                  }
                   status={x.status}
                   image={x.image}
                 />
