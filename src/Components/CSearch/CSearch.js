@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Input } from "semantic-ui-react";
-import { Button, Form, InputC } from "./CSearch.style";
+// import { Input } from "semantic-ui-react";
+import { Button, Form, Input } from "./CSearch.style";
 
 const CSearch = props => {
   return (

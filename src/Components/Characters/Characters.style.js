@@ -31,10 +31,10 @@ export const ApiResults = styled.div`
   grid-gap: 1.5em;
   place-content: center;
   place-items: center;
-  grid: auto / repeat(2, minmax(150px, 200px));
+  grid: auto / repeat(auto-fit, minmax(150px, 200px));
   @media screen and (max-width: 400px) {
     ${ApiResults} {
-      /* grid-template-columns: 1fr; */
+      /* grid: auto / repeat(2, minmax(150px, 200px)); */
       place-self: center;
       place-content: center;
       place-items: center;
