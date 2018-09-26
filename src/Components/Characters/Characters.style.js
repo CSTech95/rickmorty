@@ -29,6 +29,9 @@ export const ApiResults = styled.div`
   @media screen and (max-width: 400px) {
     ${ApiResults} {
       grid-template-columns: 1fr;
+      place-self: center;
+      place-content: center;
+      place-items: center;
     }
   }
 `;

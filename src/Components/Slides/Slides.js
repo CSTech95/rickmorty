@@ -11,10 +11,12 @@ export default class extends React.Component {
     return (
       <Container>
         <Carousel
+          pauseOnHover={false}
           slideIndex={this.state.slideIndex}
           afterSlide={slideIndex => this.setState({ slideIndex })}
           autoplay={true}
           transitionMode={"fade"}
+          wrapAround={true}
         >
           <Img src="https://images4.alphacoders.com/625/thumb-1920-625912.jpg" />
           <Img src="https://images5.alphacoders.com/876/thumb-1920-876590.png" />
