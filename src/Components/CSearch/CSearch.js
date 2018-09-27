@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 // import { Input } from "semantic-ui-react";
-import { Button, Form, Input } from "./CSearch.style";
+import { NButton, Form, Input } from "./CSearch.style";
+import Button from "../Styles/Button/Button";
 
 const CSearch = props => {
   return (
     <Form onSubmit={props.getCharacter}>
       <Input placeholder="Search for characters" type="text" name="SearchC" />
-      <Button>Search</Button>
+      <Button.Color basic color="blue" content="red">
+        Search
+      </Button.Color>
     </Form>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { colors } from "../Colors";
+import { Button } from "semantic-ui-react";
 const { red, black, grey, blue } = colors;
 
 export const Form = styled.form`
@@ -36,10 +37,10 @@ export const Input = styled.input`
     }
   }
 `;
-export const Button = styled.button`
+export const NButton = styled(Button)`
   align-self: start;
   grid-area: button;
   background: ${red};
   color: white;
-  /* width: 4em; */
+  width: 4em;
 `;
