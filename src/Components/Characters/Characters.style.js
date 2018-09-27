@@ -6,7 +6,7 @@ import CSearch from "../CSearch/CSearch";
 // const myRed = "#fb595d";
 // const myBlue = "#9FCDE6";
 
-const { red, blue, black, grey, lightblue } = colors;
+const { red, blue, black, grey, lightblue, darkblue } = colors;
 
 export const Div = styled.div`
   height: 100%;
@@ -18,7 +18,9 @@ export const Search = styled.div`
   display: grid;
   place-content: center;
   place-items: center;
-  background-image: url("https://coverfiles.alphacoders.com/423/42306.jpg");
+  /* background-image: url("https://coverfiles.alphacoders.com/423/42306.jpg"); */
+  background: ${lightblue};
+  border-top: 1.5px solid white;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: lighten;
