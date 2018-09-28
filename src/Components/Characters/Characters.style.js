@@ -16,6 +16,8 @@ export const Div = styled.div`
 export const Search = styled.div`
   width: 100%;
   border: 1px solid #1678C1;
+  border-right: none;
+  border-left: none;
   display: grid;
   place-content: center;
   place-items: center;
