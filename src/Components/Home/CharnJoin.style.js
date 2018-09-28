@@ -12,7 +12,7 @@ export const Container = styled.div`
   height: 900px;
 
   .characters {
-    background: ${red};
+    background: black;
     position: relative;
     color: white;
   }
@@ -26,7 +26,7 @@ export const Container = styled.div`
     /* transform: rotate(-45deg); */
   }
   .join {
-    background: ${lightblue};
+    background: white;
     color: black;
     position: relative;
   }
