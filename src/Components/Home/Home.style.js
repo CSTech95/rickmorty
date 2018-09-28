@@ -8,7 +8,7 @@ const { grey, lightblue, darkblue } = colors;
 export const Div = styled.div`
   height: 100%;
   width: 100%;
-  background: ${darkblue};
+  background: white;
 
   div.container {
   }
@@ -19,6 +19,6 @@ export const Div = styled.div`
     /* border-bottom: 3px solid black; */
     padding: 0.5rem;
     line-height: 2em;
-    background: ${lightblue};
+    /* background: ${lightblue}; */
   }
 `;

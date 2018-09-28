@@ -6,13 +6,13 @@ const CharnJoin = () => {
   return (
     <Container>
       <div className="characters">
-        <div className="txt">Characters</div>
+        <div className="txt">About</div>
       </div>
       <div className="join">
-        <div className="txt">Join</div>
+        <div className="txt">FAQS</div>
       </div>
       <div className="characters">
-        <div className="txt">Characters</div>
+        <div className="txt">Terms</div>
       </div>
       <div className="join">
         <div className="txt">Join</div>
