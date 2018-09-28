@@ -15,7 +15,7 @@ export const Container = styled.div`
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Container} {
-      height: 40em;
+      /* height: 40em; */
     }
   }
   @media screen and (max-width: 750px) {
@@ -32,7 +32,7 @@ export const Container = styled.div`
 export const Img = styled.img`
   width: 100%;
   /* height: 100%; */
-  height: 40em;
+  height: 35em;
   /* ---media queries--- */
   @media screen and (min-width: 853px) {
     ${Img} {
@@ -41,7 +41,7 @@ export const Img = styled.img`
   }
   @media screen and (max-width: 400px) {
     ${Img} {
-      height: 25em;
+      height: 15em;
       /* display: none; */
     }
   }
