@@ -12,7 +12,7 @@ const Home = () => {
       <div className="container">
         {/* <h1>Home</h1> */}
         <Slides />
-        <h2>Rick and Morty</h2>
+        <h1>Rick and Morty</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           ante tellus, fringilla eget lobortis quis, viverra ut justo. Nam

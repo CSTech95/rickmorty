@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { colors } from "../Colors";
 
-const { grey, lightblue, darkblue } = colors;
+const { grey, lightblue, darkblue, red } = colors;
 
 export const Div = styled.div`
   height: 100%;
@@ -20,5 +20,10 @@ export const Div = styled.div`
     padding: 0.5rem;
     line-height: 2em;
     /* background: ${lightblue}; */
+  }
+  h1{
+    font-family: "Chicle";
+    color: ${red};
+
   }
 `;
