@@ -16,5 +16,6 @@ const Input = styled.input.attrs({
   padding: ${props => props.padding};
   /* background: ${darkblue}; */
   color: #1678c1;
+  font-weight: bolder;
 `;
 export default Input;
