@@ -5,16 +5,16 @@ import { Button } from "semantic-ui-react";
 const { red, black, grey, blue } = colors;
 
 export const Form = styled.form`
-  height: 15em;
+  /* height: 15em; */
   padding: 1em;
-  display: grid;
+  /* display: grid;
   grid-gap: 0.3em;
   grid-template-columns: 1fr;
   place-content: stretch;
   place-items: center;
   grid-template-areas:
     "input"
-    "button";
+    "button"; */
   /* @media screen and (max-width: 400px) {
     ${Form} {
       display: grid;
@@ -36,11 +36,4 @@ export const Input = styled.input`
       text-align: center;
     }
   }
-`;
-export const NButton = styled(Button)`
-  align-self: start;
-  grid-area: button;
-  background: ${red};
-  color: white;
-  width: 4em;
 `;

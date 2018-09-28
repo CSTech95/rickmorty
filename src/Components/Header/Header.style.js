@@ -6,7 +6,7 @@ const { red, blue, black, grey, lightblue, darkblue } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: ${darkblue};
+  background: #1678c1;
   height: 50px;
   justify-content: space-between;
   a {
@@ -27,8 +27,8 @@ export const Wrapper = styled.header`
     align-self: center;
   }
 
-  ul.nav li:hover {
-    color: turquoise;
+  a:hover {
+    color: #2afc43;
     cursor: pointer;
   }
 

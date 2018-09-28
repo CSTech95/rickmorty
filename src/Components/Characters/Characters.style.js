@@ -14,12 +14,13 @@ export const Div = styled.div`
 `;
 
 export const Search = styled.div`
-  /* height: 30em; */
+  margin: 0px;
+  border: 1px solid #1678C1;
   display: grid;
   place-content: center;
   place-items: center;
   /* background-image: url("https://coverfiles.alphacoders.com/423/42306.jpg"); */
-  background: ${lightblue};
+  /* background: ${darkblue}; */
   border-top: 1.5px solid white;
   background-repeat: no-repeat;
   background-size: cover;
