@@ -18,11 +18,11 @@ export default class extends React.Component {
           transitionMode={"fade"}
           wrapAround={true}
         >
-          <Img src="https://images4.alphacoders.com/625/thumb-1920-625912.jpg" />
-          <Img src="https://images5.alphacoders.com/876/thumb-1920-876590.png" />
-          <Img src="https://images.alphacoders.com/876/876589.jpg" />
-          <Img src="https://images5.alphacoders.com/642/thumb-1920-642551.png" />
-          <Img src="https://images3.alphacoders.com/812/thumb-1920-812062.png" />
+          <Img src="https://orig00.deviantart.net/df13/f/2017/222/a/7/rick_sanchez_minimalist_paper___rick_and_morty_by_maxilent-dbjmqis.png" />
+          <Img src="https://i.imgur.com/EtibUvK.jpg" />
+          <Img src="http://hdqwalls.com/wallpapers/rick-and-morty-minimalist-t2.jpg" />
+          <Img src="https://img00.deviantart.net/2112/i/2015/239/b/c/rick_and_morty_by_squiddlybumps-d97f61a.jpg" />
+          <Img src="https://www.wallpaperflare.com/static/757/525/281/rick-and-morty-tv-mozilla-firefox-rick-sanchez-wallpaper.jpg" />
         </Carousel>
       </Container>
     );
