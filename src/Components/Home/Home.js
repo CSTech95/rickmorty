@@ -26,13 +26,22 @@ const Home = () => {
           consequat mollis vitae nisl. Praesent placerat sollicitudin mi eget
           consequat. Nullam cursus dui in eleifend tempus. Sed at mollis lacus.
         </p>
+        <Button basic color="blue">
+          Learn More
+        </Button>
         <p>
           Sed eros lacus, placerat in laoreet a, pharetra in purus. Vivamus ut
           cursus nisl. Aliquam quis tortor sed sem consequat ornare. Cras turpis
           lorem, faucibus vulputate facilisis vel, consequat at tortor. Etiam ut
           arcu sed mauris dictum sagittis. Aliquam erat volutpat. Vestibulum nec
-          turpis sit amet risus aliquet vehicula.
+          turpis sit amet risus aliquet vehicula. In a arcu ipsum. Mauris ipsum
+          ante, varius nec sodales non, auctor sit amet arcu. Integer interdum
+          tortor vitae hendrerit pretium. Morbi interdum at nisi eu dignissim.
+          Nullam vitae auctor justo. Aliquam erat volutpat
         </p>
+        <Button basic color="blue">
+          Learn More
+        </Button>
         <p>
           In a arcu ipsum. Mauris ipsum ante, varius nec sodales non, auctor sit
           amet arcu. Integer interdum tortor vitae hendrerit pretium. Morbi
