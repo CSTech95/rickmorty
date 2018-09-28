@@ -17,6 +17,7 @@ export default class extends React.Component {
           autoplay={true}
           transitionMode={"fade"}
           wrapAround={true}
+          withoutControls={true}
         >
           <Img src="https://orig00.deviantart.net/df13/f/2017/222/a/7/rick_sanchez_minimalist_paper___rick_and_morty_by_maxilent-dbjmqis.png" />
           <Img src="https://i.imgur.com/EtibUvK.jpg" />
