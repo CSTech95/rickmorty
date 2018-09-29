@@ -36,10 +36,11 @@ export const ApiResults = styled.div`
   grid-gap: 1.5em;
   place-content: center;
   place-items: center;
+  place-self: center;
   grid: auto / repeat(auto-fit, minmax(150px, 200px));
   @media screen and (max-width: 400px) {
     ${ApiResults} {
-      /* grid: auto / repeat(2, minmax(150px, 200px)); */
+      grid: auto / repeat(3, 100px);
       place-self: center;
       place-content: center;
       place-items: center;

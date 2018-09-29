@@ -1,10 +1,12 @@
 import React from "react";
 import { Img, Div } from "./Character.style";
-import { Card } from "semantic-ui-react";
+// import { Card } from "semantic-ui-react";
+import Card from "../Styles/Card/Card";
+
 const Character = props => {
   return (
     <Div>
-      <Card
+      <Card.Api
         image={props.image}
         header={props.name}
         meta={props.status}
