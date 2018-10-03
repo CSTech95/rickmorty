@@ -17,5 +17,6 @@ const Input = styled.input.attrs({
   /* background: ${darkblue}; */
   color: #1678c1;
   font-weight: bolder;
+  font-size: 16px;
 `;
 export default Input;
