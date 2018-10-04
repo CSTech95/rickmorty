@@ -6,7 +6,7 @@ const { red, blue, black, grey, lightblue, darkblue } = colors;
 
 export const Wrapper = styled.header`
   display: flex;
-  background: ${blue};
+  background: ${black};
   height: 50px;
   justify-content: space-between;
   a {

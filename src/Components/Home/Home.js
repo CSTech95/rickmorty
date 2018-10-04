@@ -5,15 +5,15 @@ import Button from "../Styles/Button/Button";
 import { Div } from "./Home.style";
 import Slides from "../Slides/Slides";
 import CharnJoin from "./CharnJoin";
-import Something from "./RM_Stats";
+import Somestats from "./RM_Stats";
+import Threecolinfo from "./Threecol-info";
 
 const Home = () => {
   return (
     <Div>
-      {/* <div className="container"> */}
       <Slides />
-      <Something />
-
+      <Somestats />
+      <Threecolinfo />
       <div
         style={{
           background: "yellow",
@@ -87,7 +87,6 @@ const Home = () => {
         </Button>
       </div>
       <CharnJoin />
-      {/* </div> */}
     </Div>
   );
 };
