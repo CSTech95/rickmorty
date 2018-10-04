@@ -7,9 +7,10 @@ const { red, black, grey, blue } = colors;
 export const Form = styled.form`
   /* height: 15em; */
   padding: 1em;
-  width: 100%;
-  /* display: grid;
-  grid-gap: 0.3em;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  /* grid-gap: 0.3em;
   grid-template-columns: 1fr;
   place-content: stretch;
   place-items: center;

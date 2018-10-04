@@ -15,7 +15,7 @@ export const Div = styled.div`
 
 export const Search = styled.div`
   width: 100%;
-  border: 1px solid #1678C1;
+  /* border: 1px solid #1678C1; */
   border-right: none;
   border-left: none;
   display: grid;
@@ -23,7 +23,7 @@ export const Search = styled.div`
   place-items: center;
   /* background-image: url("https://coverfiles.alphacoders.com/423/42306.jpg"); */
   /* background: ${darkblue}; */
-  border-top: 1.5px solid white;
+  /* border-top: 1.5px solid white; */
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: lighten;

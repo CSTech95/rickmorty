@@ -22,7 +22,7 @@ export const Div = styled.div`
     /* background: ${lightblue}; */
   }
   h1{
-    font-family: "Chicle";
+    font-family: "Oswald";
     color: ${red};
 
   }

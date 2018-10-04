@@ -14,8 +14,18 @@ Button.Custom = Button.extend.attrs({
 })`
   &&& {
     padding: ${props => props.padding};
+    width: 5em;
+    margin: 0 auto;
   }
 `;
+
+// Button.Custom = Button.extend.attrs({
+//   padding: props => props.padding || "1em"
+// })`
+//   &&& {
+//     padding: ${props => props.padding};
+//   }
+// `;
 
 Button.Loading = props => <Button loading {...props} />;
 Button.Active = props => <Button active {...props} />;
