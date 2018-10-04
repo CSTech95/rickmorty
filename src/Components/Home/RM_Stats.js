@@ -10,6 +10,7 @@ export default () => {
         <Statistic.Value>3</Statistic.Value>
         <Statistic.Label>Seasons</Statistic.Label>
       </Statistic>
+
       <Statistic>
         <Statistic.Label>North of</Statistic.Label>
         <Statistic.Value>30</Statistic.Value>
@@ -22,7 +23,7 @@ export default () => {
           <Icon name="user" />
           490
         </Statistic.Value>
-        <Statistic.Label>Characterss</Statistic.Label>
+        <Statistic.Label>Characters</Statistic.Label>
       </Statistic>
     </Statistic.Group>
   );
