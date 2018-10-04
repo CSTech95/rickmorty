@@ -28,11 +28,13 @@ class Join extends Component {
       <Form>
         <Form.Group widths="equal">
           <Form.Field
+            style={{ fontSize: "16px" }}
             control={Input}
             label="First name"
             placeholder="First name"
           />
           <Form.Field
+            style={{ fontSize: "16px" }}
             control={Input}
             label="Last name"
             placeholder="Last name"
@@ -69,6 +71,7 @@ class Join extends Component {
           />
         </Form.Group>
         <Form.Field
+          style={{ fontSize: "16px" }}
           control={TextArea}
           label="About"
           placeholder="Tell us more about you..."

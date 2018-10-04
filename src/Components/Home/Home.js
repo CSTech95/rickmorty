@@ -10,50 +10,83 @@ const Home = () => {
   return (
     <Div>
       <div className="container">
-        {/* <h1>Home</h1> */}
         <Slides />
-        <h1>Rick and Morty</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          ante tellus, fringilla eget lobortis quis, viverra ut justo. Nam
-          commodo feugiat ante, non luctus nulla tincidunt vel. Nullam odio
-          erat, laoreet a rutrum vitae, ornare vel enim. Sed leo sem, pharetra
-          non purus at, lacinia efficitur risus. Duis varius mauris a leo
-          congue, nec pharetra risus interdum. Pellentesque egestas ligula vitae
-          imperdiet congue. Vestibulum sed lorem id lectus vestibulum facilisis
-          elementum a magna. Ut viverra vel dui nec ornare. Vivamus gravida
-          vehicula felis a pellentesque. Aliquam a leo eget neque venenatis
-          consequat mollis vitae nisl. Praesent placerat sollicitudin mi eget
-          consequat. Nullam cursus dui in eleifend tempus. Sed at mollis lacus.
-        </p>
-        <Button basic color="blue">
-          Learn More
-        </Button>
-        <p>
-          Sed eros lacus, placerat in laoreet a, pharetra in purus. Vivamus ut
-          cursus nisl. Aliquam quis tortor sed sem consequat ornare. Cras turpis
-          lorem, faucibus vulputate facilisis vel, consequat at tortor. Etiam ut
-          arcu sed mauris dictum sagittis. Aliquam erat volutpat. Vestibulum nec
-          turpis sit amet risus aliquet vehicula. In a arcu ipsum. Mauris ipsum
-          ante, varius nec sodales non, auctor sit amet arcu. Integer interdum
-          tortor vitae hendrerit pretium. Morbi interdum at nisi eu dignissim.
-          Nullam vitae auctor justo. Aliquam erat volutpat
-        </p>
-        <Button basic color="blue">
-          Learn More
-        </Button>
-        <p>
-          In a arcu ipsum. Mauris ipsum ante, varius nec sodales non, auctor sit
-          amet arcu. Integer interdum tortor vitae hendrerit pretium. Morbi
-          interdum at nisi eu dignissim. Nullam vitae auctor justo. Aliquam erat
-          volutpat. Sed malesuada fringilla quam, at lobortis diam pharetra
-          quis. Mauris congue quam nibh, eu aliquet turpis sollicitudin sed.
-          Vestibulum feugiat risus non sapien pretium blandit. Etiam vel
-          lobortis leo. Aliquam posuere condimentum suscipit.
-        </p>
-        <Button basic color="blue">
-          Learn More
-        </Button>
+
+        <div
+          style={{
+            background: "yellow",
+            padding: "1em"
+          }}
+        >
+          <h1>Rick and Morty</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            ante tellus, fringilla eget lobortis quis, viverra ut justo. Nam
+            commodo feugiat ante, non luctus nulla tincidunt vel. Nullam odio
+            erat, laoreet a rutrum vitae, ornare vel enim. Sed leo sem, pharetra
+            non purus at, lacinia efficitur risus. Duis varius mauris a leo
+            congue, nec pharetra risus interdum. Pellentesque egestas ligula
+            vitae imperdiet congue. Vestibulum sed lorem id lectus vestibulum
+            facilisis elementum a magna. Ut viverra vel dui nec ornare. Vivamus
+            gravida vehicula felis a pellentesque. Aliquam a leo eget neque
+            venenatis consequat mollis vitae nisl. Praesent placerat
+            sollicitudin mi eget consequat. Nullam cursus dui in eleifend
+            tempus. Sed at mollis lacus.
+          </p>
+          <Button basic color="blue">
+            Learn More
+          </Button>
+        </div>
+        <div
+          style={{
+            background: "pink",
+            padding: "1em"
+          }}
+        >
+          <h1>Rick and Morty</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            ante tellus, fringilla eget lobortis quis, viverra ut justo. Nam
+            commodo feugiat ante, non luctus nulla tincidunt vel. Nullam odio
+            erat, laoreet a rutrum vitae, ornare vel enim. Sed leo sem, pharetra
+            non purus at, lacinia efficitur risus. Duis varius mauris a leo
+            congue, nec pharetra risus interdum. Pellentesque egestas ligula
+            vitae imperdiet congue. Vestibulum sed lorem id lectus vestibulum
+            facilisis elementum a magna. Ut viverra vel dui nec ornare. Vivamus
+            gravida vehicula felis a pellentesque. Aliquam a leo eget neque
+            venenatis consequat mollis vitae nisl. Praesent placerat
+            sollicitudin mi eget consequat. Nullam cursus dui in eleifend
+            tempus. Sed at mollis lacus.
+          </p>
+          <Button basic color="blue">
+            Learn More
+          </Button>
+        </div>
+        <div
+          style={{
+            background: "yellow",
+            padding: "1em"
+          }}
+        >
+          <h1>Rick and Morty</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            ante tellus, fringilla eget lobortis quis, viverra ut justo. Nam
+            commodo feugiat ante, non luctus nulla tincidunt vel. Nullam odio
+            erat, laoreet a rutrum vitae, ornare vel enim. Sed leo sem, pharetra
+            non purus at, lacinia efficitur risus. Duis varius mauris a leo
+            congue, nec pharetra risus interdum. Pellentesque egestas ligula
+            vitae imperdiet congue. Vestibulum sed lorem id lectus vestibulum
+            facilisis elementum a magna. Ut viverra vel dui nec ornare. Vivamus
+            gravida vehicula felis a pellentesque. Aliquam a leo eget neque
+            venenatis consequat mollis vitae nisl. Praesent placerat
+            sollicitudin mi eget consequat. Nullam cursus dui in eleifend
+            tempus. Sed at mollis lacus.
+          </p>
+          <Button basic color="blue">
+            Learn More
+          </Button>
+        </div>
         <CharnJoin />
       </div>
     </Div>

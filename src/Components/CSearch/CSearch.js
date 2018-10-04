@@ -9,7 +9,7 @@ const CSearch = props => {
     <Form onSubmit={props.getCharacter}>
       {/* <Input placeholder="Search for characters" type="text" name="SearchC" /> */}
       <Input padding="1em" placeholder="Search for Characters" name="SearchC" />
-      <Divider />
+      <Divider hidden />
       <Button.Color basic color="blue" content="red">
         Search
       </Button.Color>
