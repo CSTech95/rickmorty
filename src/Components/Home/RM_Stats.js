@@ -4,7 +4,7 @@ import { Statistic, Icon } from "semantic-ui-react";
 
 export default () => {
   return (
-    <Statistic.Group widths="three" color="pink" size="tiny">
+    <Statistic.Group widths="three" color="blue" size="tiny">
       <Statistic>
         <Statistic.Label>Currently</Statistic.Label>
         <Statistic.Value>3</Statistic.Value>

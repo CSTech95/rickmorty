@@ -32,11 +32,11 @@ export const Container = styled.div`
 export const Img = styled.img`
   width: 100%;
   /* height: 100%; */
-  height: 35em;
+  height: 40em;
   /* ---media queries--- */
-  @media screen and (min-width: 853px) {
+  @media screen and (min-width: 1300px) {
     ${Img} {
-      /* height: calc(100vh - 50px); */
+      height: 60em;
     }
   }
   @media screen and (max-width: 400px) {
